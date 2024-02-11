@@ -27,9 +27,7 @@ public class CubeMaster_3 : MonoBehaviour
         Vector3 unitVec_zaxis = new Vector3(0, 0, 1);
         tPosDotxz = tPos - Vector3.Dot(tPos, unitVec_axis) * unitVec_axis 
             - Vector3.Dot(tPos, unitVec_zaxis) * unitVec_zaxis;
-        // tPos.y
-
-    }
+      }
 
     public void OnRenderObject()
     {

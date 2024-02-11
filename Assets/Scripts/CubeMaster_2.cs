@@ -27,11 +27,17 @@ public class CubeMaster_2 : MonoBehaviour
     {
         myAngle += rotationRate;
         myQRot = Quaternion.AngleAxis(myAngle, myObjAxis);
-        //transform.position = Vector3.one*5.0f;
         transform.position = new Vector3(0,2,0) + Vector3.right * 5.0f;
         transform.rotation = myQRot;
         //transform.RotateAround(Vector3.zero, myWorldAxis, myAngle);
     }
+
+
+
+
+
+
+
     public void OnRenderObject()
     {
 

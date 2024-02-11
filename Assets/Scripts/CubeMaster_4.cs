@@ -29,6 +29,17 @@ public class CubeMaster_4 : MonoBehaviour
         myPerp = Vector3.Cross(tPos, tPosDotxz);
     }
 
+
+
+
+
+
+
+
+
+
+
+
     public void OnRenderObject()
     {
 

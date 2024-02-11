@@ -15,9 +15,6 @@ public class CubeMaster : MonoBehaviour
     void FixedUpdate()
     {
         Vector3 tPos = Vector3.zero;
-        //Vector3 scale = transform.localScale;
-        //scale = Vector3.one * Time.deltaTime * 1000;
-        //transform.localScale = scale;
         tPos.x = Mathf.Cos(xPhase + Time.time) * radius;
         tPos.y = 1.0f*Mathf.Cos(yPhase + Time.time) * radius;
         tPos.z = Mathf.Sin(zPhase + Time.time) * radius;

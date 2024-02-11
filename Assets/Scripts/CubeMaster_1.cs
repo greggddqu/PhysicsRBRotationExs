@@ -24,10 +24,13 @@ public class CubeMaster_1 : MonoBehaviour
     {
         myAngle += rotationRate * 5;
         myQRot = Quaternion.AngleAxis(myAngle, myAxis);
-        //transform.position = Vector3.one*5.0f;
-        //transform.position = Vector3.right * 5.0f;
         transform.rotation = myQRot;
     }
+
+
+
+
+
     public void OnRenderObject()
     {
 
